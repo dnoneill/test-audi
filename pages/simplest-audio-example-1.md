@@ -1,5 +1,5 @@
 ---
-layout: aviary
+layout: item
 title: Simplest Audio Example 1
 manifest_name: simplest-audio-example-1
 permalink: simplest-audio-example-1

@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/test-audi/annotations/simplest-audio-example-1-canvas-1-test.json",
+  "type": "AnnotationPage",
+  "label": "test",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "simplest-audio-example-1-canvas-1-test-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "testing",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://dnoneill.github.io/test-audi/simplest-audio-example-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "3,5"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "simplest-audio-example-1-canvas-1-test-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "test2",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://dnoneill.github.io/test-audi/simplest-audio-example-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "6,9"
+        }
+      }
+    }
+  ]
+}
